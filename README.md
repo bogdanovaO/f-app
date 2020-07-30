@@ -1,3 +1,6 @@
+Это личная страничка-портфолио на react.js  сделана с помощью react и bootstrap. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
