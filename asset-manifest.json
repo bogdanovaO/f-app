@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5202c445.chunk.css",
-    "main.js": "/portfolio/static/js/main.93988d2e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.93988d2e.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.b449097c.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b449097c.js.map",
-    "static/css/2.43079d8c.chunk.css": "/portfolio/static/css/2.43079d8c.chunk.css",
-    "static/js/2.3bbda871.chunk.js": "/portfolio/static/js/2.3bbda871.chunk.js",
-    "static/js/2.3bbda871.chunk.js.map": "/portfolio/static/js/2.3bbda871.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.40e6ccee1a95e3192e3782f1684e94fd.js": "/portfolio/precache-manifest.40e6ccee1a95e3192e3782f1684e94fd.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/2.43079d8c.chunk.css.map": "/portfolio/static/css/2.43079d8c.chunk.css.map",
-    "static/css/main.5202c445.chunk.css.map": "/portfolio/static/css/main.5202c445.chunk.css.map",
-    "static/js/2.3bbda871.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3bbda871.chunk.js.LICENSE.txt",
-    "static/media/profilePic.jpg": "/portfolio/static/media/profilePic.5aafa4f7.jpg"
+    "main.css": "/f-app/static/css/main.5202c445.chunk.css",
+    "main.js": "/f-app/static/js/main.ec7edfef.chunk.js",
+    "main.js.map": "/f-app/static/js/main.ec7edfef.chunk.js.map",
+    "runtime-main.js": "/f-app/static/js/runtime-main.d37ebeb5.js",
+    "runtime-main.js.map": "/f-app/static/js/runtime-main.d37ebeb5.js.map",
+    "static/css/2.43079d8c.chunk.css": "/f-app/static/css/2.43079d8c.chunk.css",
+    "static/js/2.3bbda871.chunk.js": "/f-app/static/js/2.3bbda871.chunk.js",
+    "static/js/2.3bbda871.chunk.js.map": "/f-app/static/js/2.3bbda871.chunk.js.map",
+    "index.html": "/f-app/index.html",
+    "precache-manifest.124275f8cd13076fabbbde9ac8c52818.js": "/f-app/precache-manifest.124275f8cd13076fabbbde9ac8c52818.js",
+    "service-worker.js": "/f-app/service-worker.js",
+    "static/css/2.43079d8c.chunk.css.map": "/f-app/static/css/2.43079d8c.chunk.css.map",
+    "static/css/main.5202c445.chunk.css.map": "/f-app/static/css/main.5202c445.chunk.css.map",
+    "static/js/2.3bbda871.chunk.js.LICENSE.txt": "/f-app/static/js/2.3bbda871.chunk.js.LICENSE.txt",
+    "static/media/profilePic.jpg": "/f-app/static/media/profilePic.5aafa4f7.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b449097c.js",
+    "static/js/runtime-main.d37ebeb5.js",
     "static/css/2.43079d8c.chunk.css",
     "static/js/2.3bbda871.chunk.js",
     "static/css/main.5202c445.chunk.css",
-    "static/js/main.93988d2e.chunk.js"
+    "static/js/main.ec7edfef.chunk.js"
   ]
 }
