@@ -1,0 +1,86 @@
+@import "src/mixin.sass"
+.project
+  padding: 40px
+  box-sizing: border-box
+  // background-color: #F5F5F5
+  background-color: #fff
+  flex: 1 1 auto
+  margin: 0 5px
+  border-radius: 4px
+  box-shadow: rgba(0,0,0,0.1) 0 0 10px
+  @include respondTo(phones)
+    padding: calc(2rem - 15px)
+    box-sizing: border-box
+    margin: 0
+    box-shadow: none
+
+  @include respondTo(wide-phones)
+    box-sizing: border-box
+    box-shadow: none 
+    padding: 20px
+    margin: 0
+
+  &__desc
+    box-sizing: border-box
+    display: flex
+    width: 100%
+    justify-content: space-between
+    // margin-bottom: 15px
+    @include respondTo(phones)
+      display: flex
+    @include respondTo(wide-phones)
+  &__img
+    max-width: 100%
+    box-shadow: rgba(0,0,0,0.1) 0 0 10px
+    margin-top: 15px
+    // &:last-child
+    //   margin-right: 10px
+    &_gallery
+      max-width: 49%!important
+      &:last-child
+        margin-left: 10px
+
+    @include respondTo(phones)
+      display: none
+    @include respondTo(wide-phones)
+      display: none
+    @include respondTo(tablets)
+      display: none
+  &__icons
+    color: #556DFF
+    @include respondTo(phones)
+      display: none
+    @include respondTo(wide-phones)
+      margin-bottom: 15px
+  &__icon
+    font-size: 25px
+    @include respondTo(wide-phones)
+      font-size: 20px
+    &:first-child
+      margin-right: 10px
+      @include respondTo(wide-phones)
+        margin-right: 5px
+  &__title 
+   font-size: 18px
+   font-weight: 500
+   color: #000
+   margin: 0
+   margin-bottom: 15px
+   @include respondTo(phones)
+     font-size: 17px
+     margin-bottom: 15px
+   @include respondTo(wide-phones)
+     font-size: 17px
+     margin-bottom: 15px
+  // &_design
+  //   margin-bottom: 15px
+  &__p
+    @include respondTo(phones)
+      display: none
+    // font-size: 14px
+    // letter-spacing: 0.1px
+    // max-width: 600px
+
+//мелкое 14 шрифтом кнопки жирный 14 самое мелкое 12 обычныенадписи 16 #0052CC
+  //названия проектов 16 титл главный 18 параграф 14 или 16
+    //кнопки робюото 14 400

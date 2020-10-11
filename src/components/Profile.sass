@@ -1,0 +1,39 @@
+@import "src/mixin.sass"
+.profile
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-template-rows: 70px 1fr
+  grid-column-gap: 0px
+  grid-row-gap: 0px
+  @include respondTo(phones)
+    grid-template-rows: 40px 1fr
+  &__title 
+    font-size: 30px
+    font-weight: bold
+    color: #000!important
+    grid-area: 1 / 1 / 2 / 6
+    @include respondTo(phones)
+      font-size: 20px
+  &__img 
+    height: 40vmin
+    margin-right: 10px
+    grid-area:  1 / 3 / 3 / 4
+    transform: scale(-1, 1)
+    @include respondTo(phones)
+      display: none
+    @include respondTo(wide-phones)
+      display: none
+    @include respondTo(tablets)
+      display: none
+  &__p
+    max-width: 600px
+    grid-area: 2 / 1 / 3 / 3
+    // color: grey
+    // font-size: 14px
+    // font-family: Montserrat, sans-serif
+    // letter-spacing: 1px
+    @include respondTo(phones)
+      font-size: 14px
+      grid-area: 2 / 1 / 4 / 4
+    @include respondTo(wide-phones)
+      grid-area: 2 / 1 / 4 / 4

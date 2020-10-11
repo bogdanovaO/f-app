@@ -1,21 +1,16 @@
 {
-  "title": "Веб-разработчик",
-  "description": "Начинающий веб-разработчик с большим желанием и мотивацией развиваться в данной сфере. Ранее я изучала дизайн в НИУ ВШЭ, но в итоге я поняла, что мне более интересно реализовать себя в IT-сфере. Сейчас я прохожу курсы и делаю все возможное, чтобы получить необходимые знания и навыки."
-  ,
-  "studies": [
-    {
-      "institute": "НИУ ВШЭ",
-      "logo": "https://www.hse.ru/data/2014/06/24/1310196963/logo_%D1%81_hse_cmyk.jpg",
-      "url": "https://cmd.hse.ru/",
-      "title": "Факультет коммуникаций, медиа и дизайна, Москва ",
-      "course": "Веб-дизайн",
-      "firstDate": "2016-09-15",
-      "secondDate": "2018-08-26"
-    }
-  ],
-
-  "certifications": [
-    {
+  "title": "Portfolio",
+  "description": "Привет, меня зовут Оля. Я начинающий веб-разработчик.Ранее я изучала дизайн в НИУ ВШЭ, но в итоге я поняла, что мне более интересно реализовать себя в IT-сфере.",
+  "studies": [{
+    "institute": "НИУ ВШЭ",
+    "logo": "https://abali.ru/wp-content/uploads/2013/06/emblema_vysshej_shkoly_jekonomik_vshje.png",
+    "url": "https://cmd.hse.ru/",
+    "title": "Факультет коммуникаций, медиа и дизайна, Москва ",
+    "course": "Графический дизайн",
+    "firstDate": "2016-09-15",
+    "secondDate": "2018-08-26"
+  }],
+  "certifications": [{
       "logo": "https://static.tildacdn.com/tild6330-3764-4661-b336-363963663433/WDI_Black_logo.png",
       "url": "https://wdi.design",
       "title": "WDI  DESIGN SCHOOL",
@@ -27,70 +22,77 @@
     {
       "logo": "https://yourfeedback.ru/media/product/GeekBrains.ru.jpg",
       "url": "https://geekbrains.ru",
-      "title": "geekbrains",
+      "title": "GEEKBRAINS",
       "course": "Веб-разработка",
       "firstDate": "2019-02-02",
-      "secondDate": "2020-05-23",
+      "secondDate": "2020-09-20",
       "verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-13&ci=AWS00487431"
     }
   ],
-
-
-
-  "projects": [
+  "projects": [{
+      "url": "https://bogdanovao.github.io/github-dashboard/",
+      "concept": [{
+        "title": "Github-dashboard",
+        "p": "В этом приложении реализовано отображение десяти самых популярных репозиторием на github с помощью кастомного api взятого из интернета. Тут есть возможность поиска по всем репозиториев гитхаба (с помощью официального api github) и добавлен пагинатор для удобного отображения найденных результатов. При обновлении страницы результаты поиска сохраняются. ",
+        "gitUrl": "https://github.com/bogdanovaO/github-dashboard"
+      }]
+    },
     {
-
+      "url": "http://memory-lane.ru",
+      "concept": [{
+        "title": "Memory lane",
+        "p": "Стажировочный проект. Я отвечала за все компоненты связанные с персонами и за часть компонентов с альбомами пользователя.",
+        "gitUrl": "https://github.com/bogdanovaO/vueApp#readme"
+      }]
+    },
+    {
+      "url": "https://bogdanovao.github.io/galleryOnReact/#/",
+      "concept": [{
+        "title": "GalleryOnReact",
+        "p": "Этa галлерея создана с использованием react и redux. На главной странице добавлена возможность менять размер плитки. По клику на миниатюру изображения происходит переход на страницу фотографии, на странице отдельной фотографии есть возможность оставлять комментарии. Получение фотографий и комментариев происходит с помощью библиотеки axios(api взяты из интернета).",
+        "gitUrl": "https://github.com/bogdanovaO/galleryOnReact"
+      }]
+    },
+    {
+      "url": "https://bogdanovao.github.io/f-app/",
+      "concept": [{
+        "title": "Сайт-портфолио на котором представлены мои работы",
+        "p": "Сделан на react",
+        "gitUrl": "https://github.com/bogdanovaO/f-app"
+      }]
+    },
+    {
       "url": "#",
-      "concept": [
-        {
-          "title": "Название проекта",
-          "description": "Описание проекта."
-        }]},
-        {
-          "url": "#",
-          "concept": [
-            {
-              "title": "Название проекта",
-              "description": "Описание проекта."
-            }]},
-            {
-              "url": "#",
-              "concept": [
-                {
-                  "title": "Название проекта",
-                  "description": "Описание проекта."
-                }]}
-      
-      ]
-      ,
+      "concept": [{
+        "title": "VueApp",
+        "p": "Простое приложение в котором я знакомилась с фреймворком vue.js. Реализована возможность добавления и удаления карточек.",
+        "gitUrl": "https://github.com/bogdanovaO/vueApp"
+      }]
+    }
 
-      "design": [
-        {
-          "logo": "https://cdn0.iconfinder.com/data/icons/social-network-24/512/Behance-512.png",
-          "url": "https://www.behance.net/gallery/68455967/koncept-promo-stranicy-po-prodazhe-bmw-x6",
-          "concept": [
-            {
-              "title": "Концепт одностраничного сайта",
-              "description": "Одностраничный сайт по продаже bmw x6."
-            }]},
-            {
-              "logo": "https://cdn0.iconfinder.com/data/icons/social-network-24/512/Behance-512.png",
-              "url": "https://www.behance.net/gallery/69470851/koncept-internet-magazina",
-              "concept": [
-                {
-                  "title": "Концепт сайта",
-                  "description": "Сайт магазина свечей"
-                }            
-            ]},
-            {
-              "logo": "https://cdn0.iconfinder.com/data/icons/social-network-24/512/Behance-512.png",
-              "url": "https://www.behance.net/gallery/69471041/koncept-prilozhenija-pod-ios",
-              "concept": [
-                {
-                  "title": "Концепт ios приложения",
-                  "description": "Приложение с картинками."
-                }]}
-          
-          ]
-      
+  ],
+  "design": [{
+      "logo": "https://cdn0.iconfinder.com/data/icons/social-network-24/512/Behance-512.png",
+      "url": "https://www.behance.net/gallery/69471041/koncept-prilozhenija-pod-ios",
+      "concept": [{
+        "title": "Концепт ios приложения",
+        "description": "Приложение с картинками."
+      }]
+    },
+    {
+      "url": "https://www.behance.net/gallery/68455967/koncept-promo-stranicy-po-prodazhe-bmw-x6",
+      "concept": [{
+        "title": "Концепт одностраничного сайта",
+        "description": "Одностраничный сайт по продаже bmw x6."
+      }]
+    },
+    {
+      "logo": "https://cdn0.iconfinder.com/data/icons/social-network-24/512/Behance-512.png",
+      "url": "https://www.behance.net/gallery/69470851/koncept-internet-magazina",
+      "concept": [{
+        "title": "Концепт сайта",
+        "description": "Сайт магазина свечей"
+      }]
+    }
+  ]
 }

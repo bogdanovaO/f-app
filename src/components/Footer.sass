@@ -1,0 +1,22 @@
+@import "src/mixin.sass"
+footer
+  // border-top: #000
+  background-color: #f1f2f6!important
+  text-align: center
+  padding: 20px 0
+  &__posts
+    background-color: #fff!important
+  @include respondTo(phones)
+    padding: 15px 0
+  & a 
+    color: #556DFF
+    font-size: 30px
+    margin-right: 10px
+    margin-left: 10px
+    @include respondTo(phones)
+      font-size: 20px
+
+.footerForPosts
+    position: absolute
+    width: 100%
+    bottom: 0

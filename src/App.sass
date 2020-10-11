@@ -1,0 +1,142 @@
+@import "src/components/Profile.sass"
+@import "src/components/Footer.sass"
+@import "src/components/Top.sass"
+@import "src/mixin.sass"
+
+html,body 
+  height: 100%
+
+.navbar-toggler
+  display: none!important
+.contactsDescription
+  color: #556DFF!important
+  font-size: 14px
+  &:hover
+    color: #556DFF
+
+.p
+  color: grey
+  font-size: 14px
+  letter-spacing: 0.8px
+  font-family: Montserrat, sans-serif
+  font-weight: 300
+// .profileWrap
+//   height: calc(100% - 60px)
+.App 
+    background-color: #fff
+    min-height: 100%
+    // display: flex
+    // flex-direction: column
+    // justify-content: space-between
+    // padding-bottom: 60px
+    @include respondTo(xs-phones)
+      background-color: #fff
+    @include respondTo(phones)
+      background-color: #fff
+
+.nav-tabs .nav-link
+  border-radius: none!important
+ 
+
+
+.jumbotron 
+  background-color: #fff!important
+  margin-bottom: 0!important
+  padding: 4rem 2rem 0!important
+  @include respondTo(phones)
+    padding-top: 35px !important
+    padding-bottom: 20px!important
+
+
+.button
+  font-family: Montserrat, sans-serif!important
+  border-radius: 4px!important
+  text-transform: none!important
+  font-weight: 400!important
+  color: #556DFF!important
+  &_hidden
+    display: none!important
+  &:first-child
+    margin-right: 10px
+
+
+
+.nav-link.active
+  background-color: #556DFF!important
+  color: #f1f2f6!important
+  font-weight: bold
+  border-radius: unset
+  @include respondTo(carouselSizeFix)
+    font-size: 12px
+.nav-link
+  font-weight: bold
+  color: #000!important
+  @include respondTo(carouselSizeFix)
+    font-size: 12px
+
+
+.container 
+  @include respondTo(phones)
+    padding-right: 0!important
+    padding-left: 0 !important
+.links 
+  color: #000
+
+  &:hover 
+    color: #173798
+    text-decoration: none
+  
+
+
+.certificateLink 
+  color: cornflowerblue
+
+
+div.media 
+  margin-top: 50px
+  margin-bottom: 50px
+  @include respondTo(phones)
+    margin-top: 20px
+    margin-bottom: 20px
+.2
+  height: 100px
+  margin-right: 10px
+  border-radius: 50px
+
+
+
+  
+.tab-content
+  margin-bottom: 50px
+  @include respondTo(phones)
+    margin-bottom: 0
+  @include respondTo(wide-phones)
+    margin-bottom: 0
+.postTime 
+  color: grey
+  font-size: 12px
+
+.education__title
+  @include respondTo(phones)
+    margin-left: 20px
+
+.education__logo
+    height: 100px
+    margin-right: 10px
+    border-radius: 50px
+    @include respondTo(wide-phones)
+      height: 70px
+    @include respondTo(phones)
+      height: 70px
+      margin-left: 20px
+
+.react-rotating-text-cursor 
+  animation: blinking-cursor 0.8s cubic-bezier(0.68, 0.01, 0.01, 0.99) 0s infinite
+  color: #556DFF
+@keyframes blinking-cursor 
+  0% 
+    opacity: 0
+  50% 
+    opacity: 1
+  100% 
+    opacity: 0

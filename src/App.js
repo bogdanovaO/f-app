@@ -1,32 +1,29 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.scss';
-import Top from './components/Top';
-import Profile from './components/Profile';
-import Footer from './components/Footer';
-import Posts from './components/Posts';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import './App.sass';
+import Top from './components/Top.jsx';
+import Profile from './components/Profile.jsx';
+import Footer from './components/Footer.jsx';
+import Contacts from './components/Contacts.jsx';
+// import Project from './components/Project.jsx';
+import { HashRouter, Switch, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <BrowserRouter basename={'/'}>
+      // <div className="App">
+        <HashRouter basename='/'>
+        <div className="App">
         <Top />
         <Switch>
-        <Route path="/" exact component={Profile}> 
-           <Profile/>
-        </Route>
-        <Route path="/profile" component={Profile}> 
-           <Profile/>
-        </Route>
-        <Route path="/posts" component={Posts}> 
-            <Posts/>
-        </Route>
+        <Route path="/" exact component={Profile}/>
+        <Route path="/posts" component={Contacts}/>
+        {/* <Route path="/project:id" component={Project}/> */}
         </Switch>
-        <Footer />
-        </BrowserRouter>
-      </div>
+        {/* <Footer /> */}
+        </div>
+        </HashRouter>
+      // {/* </div> */}
     );
   }
 }

@@ -1,0 +1,30 @@
+@import "src/mixin.sass"
+  
+.top 
+  background-color: #f1f2f6!important
+  padding: 15px 0
+  box-sizing: border-box
+  @include respondTo(phones)
+    padding: 15px 20px
+    box-sizing: border-box
+  &__title
+    color: #000
+    font-weight: bold
+    font-size: 18px
+    font-weight: 400!important
+    text-transform: none!important
+    @include respondTo(phones)
+      font-size: 17px
+    &:hover
+      color: #556DFF
+      text-decoration: none
+  &__link
+    color: #556DFF!important
+    font-weight: bold!important
+    text-transform: none!important
+    font-size: 1rem!important
+    font-weight: 400!important
+    &:hover
+      color: #556DFF
+      text-decoration: none
+
