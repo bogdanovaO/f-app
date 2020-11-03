@@ -3,8 +3,8 @@ import { Container, Row, Col } from "reactstrap";
 import profile from "../profile.json";
 import { MDBMedia } from 'mdbreact';
 import pik from '../img.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSass, faReact } from '@fortawesome/free-brands-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { faSass, faReact } from '@fortawesome/free-brands-svg-icons'
 import Button from '@material-ui/core/Button';
 import './Projects.sass';
 import galleryDetail from '../galleryDetail.png';
@@ -34,8 +34,8 @@ class Experience extends React.Component {
                           <p className='project__p p'>{concept.p}</p>
                           <div className="project__desc">
                           <div className="project__icons">
-                            <FontAwesomeIcon className="project__icon" icon={faSass}/>
-                            <FontAwesomeIcon icon={faReact}/>
+                            {/* <FontAwesomeIcon className="project__icon" icon={faSass}/>
+                            <FontAwesomeIcon icon={faReact}/> */}
                           </div>
 
                           <div className="buttonContainer">

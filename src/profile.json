@@ -38,13 +38,14 @@
       }]
     },
     {
-      "url": "http://memory-lane.ru",
+      "url": "https://bogdanovao.github.io/pepelane/",
       "concept": [{
-        "title": "Memory lane",
-        "p": "Стажировочный проект. Я отвечала за все компоненты связанные с персонами и за часть компонентов с альбомами пользователя.",
-        "gitUrl": "https://github.com/bogdanovaO/vueApp#readme"
+        "title": "pepelane",
+        "p": "Сайт с арендой летательных аппаратов, сделан с помощью vue + nuxt",
+        "gitUrl": "https://github.com/bogdanovaO/pepelane"
       }]
     },
+
     {
       "url": "https://bogdanovao.github.io/galleryOnReact/#/",
       "concept": [{
