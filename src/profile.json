@@ -29,20 +29,29 @@
       "verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-13&ci=AWS00487431"
     }
   ],
-  "projects": [{
+  "projects": [
+    {
+      "url": "https://bettercallnik.ru/",
+      "concept": [{
+        "title": "Сайт частного мастера по ремонту, сделан на vue + nuxt + bulm",
+        "p": "Сайт сделан по заказу на фрилансе",
+        "gitUrl": "https://github.com/bogdanovaO/service-landing"
+      }]
+    },
+    {
       "url": "https://bogdanovao.github.io/github-dashboard/",
       "concept": [{
         "title": "Github-dashboard",
-        "p": "В этом приложении реализовано отображение десяти самых популярных репозиторием на github с помощью кастомного api взятого из интернета. Тут есть возможность поиска по всем репозиториев гитхаба (с помощью официального api github) и добавлен пагинатор для удобного отображения найденных результатов. При обновлении страницы результаты поиска сохраняются. ",
+        "p": "В этом приложении реализовано отображение десяти самых популярных репозиторием на github с помощью кастомного api взятого из интернета. Тут есть возможность поиска по всем репозиториев гитхаба (с помощью официального api github) и добавлен пагинатор для удобного отображения найденных результатов. При обновлении страницы результаты поиска сохраняются.  UPD: api для получения популярных репозиториев больше не поддерживается",
         "gitUrl": "https://github.com/bogdanovaO/github-dashboard"
       }]
     },
     {
-      "url": "https://bogdanovao.github.io/pepelane/",
+      "url": "http://mytestwork.ru",
       "concept": [{
-        "title": "pepelane",
+        "title": "test work on nuxt.js",
         "p": "Сайт с арендой летательных аппаратов, сделан с помощью vue + nuxt",
-        "gitUrl": "https://github.com/bogdanovaO/pepelane"
+        "gitUrl": "https://github.com/bogdanovaO/test-work-on-nuxt.js"
       }]
     },
 

@@ -43,10 +43,13 @@ class Experience extends React.Component {
                               <Button variant="outlined"  size="small"  color="primary" className={concept.title === "VueApp" ?  "button_hidden" : "button button_concept"} >
                                 Открыть сайт
                               
-                              </Button></a>
+                              </Button>
+                              </a>
+                              <a href={projects.gitUrl}>
                               <Button variant="outlined"  size="small" color="primary" className="button button_concept">
                                 Перейти на github
                               </Button>
+                              </a>
                             </div>
 
 </div>
