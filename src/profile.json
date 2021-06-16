@@ -31,11 +31,19 @@
   ],
   "projects": [
     {
-      "url": "https://bettercallnik.ru/",
+      "url": "https://bogdanovao.github.io/tic-tac-toe/",
       "concept": [{
-        "title": "Сайт частного мастера по ремонту, сделан на vue + nuxt + bulm",
-        "p": "Сайт сделан по заказу на фрилансе",
-        "gitUrl": "https://github.com/bogdanovaO/service-landing"
+        "title": "Tic-tac-toe",
+        "p": "Игра в крестики-нолики 5 в ряд, поле n*n.",
+        "gitUrl": "https://github.com/bogdanovaO/tic-tac-toe"
+      }]
+    },
+    {
+      "url": "http://bogdanovao.github.io/weather/",
+      "concept": [{
+        "title": "Прогноз погоды",
+        "p": "Релизована темная тема, поиск по городам, опредление текущей геолокации. Отображены основные данные о погоде + прогноз по часам/по дням, картинка-бэкграунд меняется взависимости от !!!! ЧЕГО",
+        "gitUrl": "https://github.com/bogdanovaO/weather"
       }]
     },
     {
@@ -47,39 +55,13 @@
       }]
     },
     {
-      "url": "http://mytestwork.ru",
-      "concept": [{
-        "title": "test work on nuxt.js",
-        "p": "Сайт с арендой летательных аппаратов, сделан с помощью vue + nuxt",
-        "gitUrl": "https://github.com/bogdanovaO/test-work-on-nuxt.js"
-      }]
-    },
-
-    {
       "url": "https://bogdanovao.github.io/galleryOnReact/#/",
       "concept": [{
         "title": "GalleryOnReact",
         "p": "Этa галлерея создана с использованием react и redux. На главной странице добавлена возможность менять размер плитки. По клику на миниатюру изображения происходит переход на страницу фотографии, на странице отдельной фотографии есть возможность оставлять комментарии. Получение фотографий и комментариев происходит с помощью библиотеки axios(api взяты из интернета).",
         "gitUrl": "https://github.com/bogdanovaO/galleryOnReact"
       }]
-    },
-    {
-      "url": "https://bogdanovao.github.io/f-app/",
-      "concept": [{
-        "title": "Сайт-портфолио на котором представлены мои работы",
-        "p": "Сделан на react",
-        "gitUrl": "https://github.com/bogdanovaO/f-app"
-      }]
-    },
-    {
-      "url": "#",
-      "concept": [{
-        "title": "VueApp",
-        "p": "Простое приложение в котором я знакомилась с фреймворком vue.js. Реализована возможность добавления и удаления карточек.",
-        "gitUrl": "https://github.com/bogdanovaO/vueApp"
-      }]
     }
-
   ],
   "design": [{
       "logo": "https://cdn0.iconfinder.com/data/icons/social-network-24/512/Behance-512.png",

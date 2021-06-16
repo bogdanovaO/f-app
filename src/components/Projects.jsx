@@ -45,7 +45,7 @@ class Experience extends React.Component {
                               
                               </Button>
                               </a>
-                              <a href={projects.gitUrl}>
+                              <a href={concept.gitUrl}>
                               <Button variant="outlined"  size="small" color="primary" className="button button_concept">
                                 Перейти на github
                               </Button>
